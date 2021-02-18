@@ -1,0 +1,62 @@
+.button {
+    background-color: #c20443;
+    border-radius: 20px;
+    width: 160px;
+}
+.button1{
+    background-color: #c20443;
+    border-radius: 20px;
+    width: 60px;
+}
+.button2{
+    background-color: #c20443;
+    width: 90px;
+    height:50px;
+}
+.mat-flat-button, .mat-raised-button, .mat-fab, .mat-mini-fab {
+    color: white;
+  
+}
+.label {
+    height: 60px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+.input{
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.button20{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid rgb(155, 1, 103);
+  
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+  .card1{
+    background-color: crimson; color: rgb(255, 255, 255)
+  }
+
+  .btnclr{
+    background-color: #c20443
+  }
